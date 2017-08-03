@@ -33,9 +33,7 @@
 			"phone": true
 		},
 		"supportedThemes": [
-			"sap_hcb",
 			"sap_belize"
-
 		]
 	},
 
@@ -62,11 +60,6 @@
 					"bundleName": "ui5lab.app.SquareApp.i18n.i18n"
 				}
 			}
-		},
-		"resources": {
-			"css": [{
-				"uri": "https://rawgit.com/openui5/UI5Lab-control-simple/master/src/ui5lab/control/Square.css"
-			}]
 		}
 	}
 }
