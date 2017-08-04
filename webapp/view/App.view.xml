@@ -7,19 +7,19 @@
       <Page title="{i18n>title}">
         <content>
           <List
-				      headerText="Entries"
-				      items="{/Items}" >
-				    <FeedListItem
-					      sender="{Author}"
-					      icon="{AuthorPicUrl}"
-					      senderPress="onPress"
-					      iconPress="onPress"
-					      iconDensityAware="false"
-					      info="{Type}"
-					      timestamp="{Date}"
-					      text="{Text}"
-					      convertLinksToAnchorTags="All" />
-			    </List>
+			  headerText="Entries"
+			  items="{/Items}" >
+			<FeedListItem
+				sender="{Author}"
+				icon="{AuthorPicUrl}"
+				senderPress="onPress"
+				iconPress="onPress"
+				iconDensityAware="false"
+				info="{Type}"
+				timestamp="{Date}"
+				text="{Text}"
+				convertLinksToAnchorTags="All" />
+		  </List>
         </content>
       </Page>
     </pages>
