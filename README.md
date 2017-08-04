@@ -1,5 +1,5 @@
 # UI5-firebase-model-samples
-An example app of how you use the UI5 Firebase model in [https://github.com/jumpifzero/ui5-firebase-model](https://github.com/jumpifzero/ui5-firebase-model)
+An example app showing you how to use the UI5 Firebase model in [https://github.com/jumpifzero/ui5-firebase-model](https://github.com/jumpifzero/ui5-firebase-model)
 
 
 ## Getting started
@@ -44,7 +44,7 @@ npm instal --save ui5-firebase-model
 ```
 
 2. Copy the file postInstall.js and add it into your app root (at the same level as `package.json` and `webapp`)
-Don't have a package.json? [Read this](https://github.com/jumpifzero/ui5-firebase-model)
+Don't have a package.json? [Read this](#i-dont-have-a-package-json)
 
 3. Add postInstall as a script to your `package.json`
 In your package.json make sure your `script` entry contains the postInstall line. Like so:
@@ -140,3 +140,8 @@ If you are sure you're FirebaseModel will only be used by a single user you can 
 ### Transactions
 
 Firebase has methods to deal with transactional updates in multiple parts of the tree. TODO: DOCUMENT THIS.
+
+
+## I don't have a package.json
+
+On the root of your project run `npm init` and follow the prompts.
