@@ -1,6 +1,6 @@
 {
     "name": "ui5-firebase-model-samples",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Sample application helping you use the awesome FirebaseModel from ui5-firebase-model.",
     "dependencies": {
         "bower": "^1.8.0",
